@@ -13,7 +13,7 @@ sudo apt install ansible
 1. Clone this repository<br>
 2. Execute the "deploy_apache.yml" file<br>
 ```
-ansible-playbook deploy_apache.yml -i hosts
+ansible-playbook deploy_apache.yml -i host
 ```
 ## Files
 1. **script.yml** : Ansible playbook which is a list of tasks that automatically execute against hosts, to configure the Apache virtual hosts for the domain names. <br>
